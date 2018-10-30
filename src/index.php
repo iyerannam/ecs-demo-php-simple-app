@@ -12,9 +12,9 @@ http://www.tooplate.com/view/2101-insertion
 -->
   <!-- load CSS -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">        <!-- Google web font "Open Sans" -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">                                            <!-- https://getbootstrap.com/ -->
-  <link rel="stylesheet" href="css/fontawesome-all.min.css">                                      <!-- Font awesome -->
-  <link rel="stylesheet" href="css/tooplate-style.css">                                           <!-- Templatemo style -->
+  <link rel="stylesheet" href="asset/css/bootstrap.min.css">                                            <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="asset/css/fontawesome-all.min.css">                                      <!-- Font awesome -->
+  <link rel="stylesheet" href="asset/css/tooplate-style.css">                                           <!-- Templatemo style -->
 
   <script>
     var renderPage = true;
@@ -46,13 +46,13 @@ http://www.tooplate.com/view/2101-insertion
             <nav class="navbar navbar-expand-sm">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a href="index.html" class="nav-link tm-nav-link tm-text-white active">Home</a>
+                  <a href="index.php" class="nav-link tm-nav-link tm-text-white active">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a href="about.html" class="nav-link tm-nav-link tm-text-white">About</a>
+                  <a href="about.php" class="nav-link tm-nav-link tm-text-white">About</a>
                 </li>
                 <li class="nav-item">
-                  <a href="contact.html" class="nav-link tm-nav-link tm-text-white">Contact</a>
+                  <a href="contact.php" class="nav-link tm-nav-link tm-text-white">Contact</a>
                 </li>
               </ul>
             </nav>
@@ -72,7 +72,7 @@ http://www.tooplate.com/view/2101-insertion
 
     <div class="container">
       <div class="tm-search-form-container">
-        <form action="index.html" method="GET" class="form-inline tm-search-form">
+        <form action="index.php" method="GET" class="form-inline tm-search-form">
           <div class="text-uppercase tm-new-release">New Release</div>
           <div class="form-group tm-search-box">
             <input type="text" name="keyword" class="form-control tm-search-input" placeholder="Type your keyword ...">
