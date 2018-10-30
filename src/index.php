@@ -17,7 +17,7 @@
             <div class="hero-unit">
                 <h1>Playlistify Demo</h1>
                 <h2>Congratulations</h2>
-                <p>Your PHP application is now running on a container in Amazon ECS.</p>
+                <p>Your PHP application is now running on a container in Amazon ECS!</p>
                 <p>The container is running on Fargate <?php echo phpversion(); ?>.</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
